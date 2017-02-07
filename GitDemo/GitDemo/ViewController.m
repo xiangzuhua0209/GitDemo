@@ -16,6 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor cyanColor];
+    self.view.layer.borderColor = [UIColor redColor].CGColor;
     // Do any additional setup after loading the view, typically from a nib.
 }
 
